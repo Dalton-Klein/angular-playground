@@ -1,0 +1,12 @@
+
+<div class='master-shop'>
+  <ul class='uk-list'>
+    <li *ngFor= 'let item of items'>
+      {{item}}
+    </li>
+  </ul>
+</div>
+  <hr>
+<div class='master-shop'>
+  <div *ngIf='items.length > 1'>Item count: {{items.length}}</div>
+</div>
