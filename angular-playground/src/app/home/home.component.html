@@ -1,1 +1,4 @@
-<p>home works! Yayy</p>
+<h1>Home Comp</h1>
+<h3>Current Message: {{currentMessage}}</h3>
+<p>Parent Count: {{count}}</p>
+<app-counter [count]="count" (increaseEvent)="increase($event)" (decreaseEvent)="increase($event)"></app-counter>
